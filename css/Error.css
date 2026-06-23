@@ -1,0 +1,28 @@
+.error-container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-left: 15%;
+}
+
+.error-content h1 {
+    font-size: 120px;
+    margin: 0;
+    color: #f8c532; /* Tu color principal */
+    line-height: 1;
+}
+
+.error-content h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.error-content p {
+    color: #fffdfd;
+    max-width: 500px;
+    margin: 0 auto 30px;
+}

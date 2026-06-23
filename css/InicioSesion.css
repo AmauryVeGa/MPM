@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --grad-clr1: #000000;
+    --grad-clr2: #f8c532;
+}
+
+body {
+    height: 100vh;
+    background: #f6f5f7;
+    display: grid;
+    place-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://assets.milestoneinternet.com/amdim-asociacion-mexicana-de-ditstribuidores-mitsubishi/dsc08844.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+  display:flex;
+width: 850px;
+height: 500px;
+background-color: rgba(255, 255, 255, 0);
+box-shadow: 25px 30px 55px #5557;
+border-radius: 13px;
+overflow: hidden;
+}
+
+.form-container{
+  width: 100%;
+  height: 100%;
+  padding: 0px 40px;
+  transition: all 0.6s ease-in-out;
+
+}
+
+.overlay-container{
+  display: flex;
+  top: 0;
+  left: 60%;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.overlay-container{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: justify;
+}
+
+form{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+h1{
+  color: var(--grad-clr1);
+}
+
+span{
+  font-size: 12px;
+}
+
+.infield{
+  position: relative;
+  margin: 8px 0px;
+  width: 60%;
+}
+
+input{
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #f3f3f3;
+  border: none;
+  outline: none;
+}
+
+label{
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  transition: 0.3s;
+}
+
+input:focus ~ label{
+    width: 100%;
+}
+
+button{
+  border-radius: 10px;
+  border: 1px solid var(--grad-clr1);
+  background: var(--grad-clr2);
+  color: black;
+font-size: 12px;
+padding: 12px 45px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
