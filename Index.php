@@ -21,7 +21,7 @@ session_start();
           <ul>
             <?php if(isset($_SESSION['usuario'])): ?>
             <li><a href="Consulta.php"><i class="fa-solid fa-database"></i>Consultas</a></li>
-            <li><a href="Registro_mantenimiento.php"><i class="fa-solid fa-floppy-disk"></i>Registros</a></li>
+            <li><a href="Registro_Mantenimiento.php"><i class="fa-solid fa-floppy-disk"></i>Registros</a></li>
             <li><a href="Registros.php"><i class="fa-solid fa-table"></i>Services</a></li>
             <li><a href="Sitemap.php"><i class="fa-regular fa-map"></i>Sitemap</a></li>
             <li><a href="Usuarios.php"><i class="fa-solid fa-circle-user"></i>Perfiles </a></li>

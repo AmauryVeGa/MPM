@@ -6,7 +6,7 @@ if (session_status() === PHP_SESSION_NONE) {
 if (!isset($_SESSION["usuario"])) {
     echo "<script>
         alert('Esta sección solo está disponible para el administrador');
-        window.location.href = '/MpmMantenimientos/Index.php';
+        window.location.href = '../Index.php';
     </script>";
     exit();
 }
