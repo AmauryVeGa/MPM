@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = new mysqli("localhost", "root", "", "mpm");
+$conn = new mysqli("fdb1029.awardspace.net", "4773432_mpm", "VeGaAmaury09", "4773432_mpm");
 
 if (!isset($_SESSION['usuario'])) {
     header("Location: ../Login.php");

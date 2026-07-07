@@ -1,7 +1,7 @@
 <?php
    session_start();
    require("PHP/Auth.php");
-$conn = new mysqli("localhost", "root", "", "mpm");
+$conn = new mysqli("fdb1029.awardspace.net", "4773432_mpm", "VeGaAmaury09", "4773432_mpm");
 
 $result_te = $conn->query("SELECT TE FROM unidades ORDER BY TE ASC");
 

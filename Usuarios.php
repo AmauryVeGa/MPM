@@ -67,7 +67,7 @@ require("PHP/Auth.php");
   <div class="contenedor-form">
     <div class="form-box">
       <?php
-      $conn = new mysqli("localhost", "root", "", "mpm");
+      $conn = new mysqli("fdb1029.awardspace.net", "4773432_mpm", "VeGaAmaury09", "4773432_mpm");
 
       $result = $conn->query("SELECT cv_usuario, usuario FROM usuario");
       ?>

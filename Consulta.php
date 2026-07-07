@@ -2,7 +2,7 @@
    session_start(); // Inicia la sesión
    require("PHP/Auth.php");
 
-$conn = new mysqli("localhost", "root", "", "mpm");
+$conn = new mysqli("fdb1029.awardspace.net", "4773432_mpm", "VeGaAmaury09", "4773432_mpm");
 
    if (isset($_SESSION['usuario'])) { // Verifica si la sesión está iniciada y la variable de usuario existe
        $nombre_usuario = $_SESSION['usuario']; // Obtiene el nombre de usuario de la sesión
